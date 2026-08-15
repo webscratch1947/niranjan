@@ -1,0 +1,8 @@
+node_modules
+build
+dist
+public
+package-lock.json
+src-tauri
+signatures
+*.min.js

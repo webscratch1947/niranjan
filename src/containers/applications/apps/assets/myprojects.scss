@@ -1,0 +1,155 @@
+.myprojectsApp {
+  position: absolute;
+  width: 820px;
+  height: 620px;
+  background: var(--win-bg, #202020);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &[data-max="true"] {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+
+  &[data-hide="true"] {
+    display: none !important;
+  }
+}
+
+.myproj-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 28px 32px 32px;
+  background: linear-gradient(160deg, #1a1a2e 0%, #16213e 40%, #0f3460 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.myproj-header {
+  text-align: center;
+  padding-bottom: 4px;
+
+  .myproj-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.3px;
+  }
+
+  .myproj-subtitle {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 6px;
+  }
+}
+
+.myproj-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 18px;
+}
+
+.myproj-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 22px;
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: border-color 0.2s, background 0.2s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.09);
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+.myproj-card-top {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.myproj-logo-wrap {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  background: #fff;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.myproj-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.myproj-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.myproj-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.myproj-tagline {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.myproj-desc {
+  font-size: 12.5px;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.6;
+}
+
+.myproj-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.myproj-tag {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: rgba(99, 179, 237, 0.15);
+  color: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(99, 179, 237, 0.2);
+}
+
+.myproj-installbtn {
+  margin-top: 4px;
+  align-self: flex-start;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(66, 153, 225, 0.5);
+  background: rgba(66, 153, 225, 0.3);
+  color: #bee3f8;
+  cursor: pointer;
+  transition: all 0.18s ease;
+
+  &:hover {
+    background: rgba(66, 153, 225, 0.5);
+    color: #fff;
+  }
+}

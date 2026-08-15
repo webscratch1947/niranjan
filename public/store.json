@@ -1,0 +1,26 @@
+[
+  {
+    "name": "RentNivas",
+    "icon": "https://raw.githubusercontent.com/niranjan-webscratch1947/win11React/main/public/img/icon/rentnivas.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://rentnivas.com",
+      "gallery": [],
+      "desc": "RentNivas is an online rental property platform built for India. Find verified flats, rooms, and houses for rent across cities — with smart filters, gamified rewards, and a seamless booking experience.\n\nWhether you are a tenant looking for your next home or a landlord listing your property, RentNivas makes it simple, fast, and trustworthy.",
+      "feat": "Verified rental listings across India.\nSmart city and locality filters.\nGamified rewards for users.\nEasy property listing for landlords.\nMobile-friendly experience."
+    }
+  },
+  {
+    "name": "MGR All-in-One Services",
+    "icon": "https://raw.githubusercontent.com/niranjan-webscratch1947/win11React/main/public/img/icon/mgrallinone.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://mgrallinoneservices.com",
+      "gallery": [],
+      "desc": "MGR All-in-One Services is your one stop solution to all home service problems in Jabalpur. From AC repair and plumbing to carpentry, painting, salon, and taxi — get reliable local professionals at your doorstep.",
+      "feat": "AC repair and home appliance services.\nPlumbing and carpentry.\nSalon and beauty services.\nPainting and home maintenance.\nTaxi and transport booking."
+    }
+  }
+]

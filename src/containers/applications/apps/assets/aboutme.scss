@@ -1,0 +1,198 @@
+.aboutmeApp {
+  position: absolute;
+  width: 380px;
+  height: auto;
+  min-height: 400px;
+  background: #0d0d0d;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  &[data-max="true"] {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    border-radius: 0;
+  }
+
+  &[data-hide="true"] {
+    display: none !important;
+  }
+
+  // Override toolbar to match blue accent
+  .toolbar {
+    background: #1565c0 !important;
+    border-bottom: none !important;
+
+    .tltxt {
+      color: #fff !important;
+    }
+
+    .uicon {
+      filter: brightness(10) !important;
+    }
+  }
+}
+
+.aboutme-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #111418;
+  padding: 20px 20px 0;
+  overflow: hidden;
+}
+
+/* Profile */
+.aboutme-profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.aboutme-avatar-wrap {
+  width: 72px;
+  height: 72px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 2px solid #1976d2;
+  flex-shrink: 0;
+  background: #1a2a3a;
+  image-rendering: pixelated;
+}
+
+.aboutme-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.aboutme-profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.aboutme-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.2px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.aboutme-role {
+  font-size: 14px;
+  color: #4fc3f7;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+/* Divider */
+.aboutme-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 16px;
+}
+
+/* Section label */
+.aboutme-section-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #4fc3f7;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Skills Grid */
+.aboutme-skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.skill-tile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #1a1d22;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: default;
+  transition: background 0.15s, border-color 0.15s;
+
+  &:hover {
+    background: #222630;
+    border-color: rgba(79, 195, 247, 0.3);
+  }
+}
+
+.skill-icon {
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-weight: 800;
+  font-family: "Segoe UI", monospace;
+  line-height: 1;
+}
+
+.skill-name {
+  font-size: 12.5px;
+  color: #d0d0d0;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Footer */
+.aboutme-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 0 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin-top: auto;
+
+  .footer-code {
+    font-size: 13px;
+    color: #4fc3f7;
+    font-weight: 700;
+    font-family: monospace;
+  }
+
+  .footer-text {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: "Courier New", monospace;
+    flex: 1;
+  }
+
+  .footer-terminal {
+    width: 28px;
+    height: 28px;
+    background: #1565c0;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: #fff;
+    font-family: monospace;
+    font-weight: 700;
+  }
+}

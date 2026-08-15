@@ -1,0 +1,59 @@
+[
+  {
+    "name": "RentNivas",
+    "icon": "img/asset/rentnivas_logo.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://rentnivas.com",
+      "gallery": [
+        "img/asset/rentnivas_logo.png"
+      ],
+      "desc": "RentNivas is a full-stack Indian property rental platform \u2014 browse and manage rental listings right from here.",
+      "feat": "Live property listings\nHost & renter tools\nReal website, not a demo"
+    }
+  },
+  {
+    "name": "MGR All In One Services",
+    "icon": "img/asset/mgr_logo.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://mgrallinoneservices.com",
+      "gallery": [
+        "img/asset/mgr_logo.png"
+      ],
+      "desc": "MGR All In One Services is a home services marketplace \u2014 book electricians, plumbers, salons, and more.",
+      "feat": "Book real services\nMultiple service categories\nReal website, not a demo"
+    }
+  },
+  {
+    "name": "Krunker",
+    "icon": "https://krunker.io/img/newp.png",
+    "type": "game",
+    "data": {
+      "type": "IFrame",
+      "url": "https://krunker.io",
+      "invert": true,
+      "gallery": [
+        "https://d326lupd521z61.cloudfront.net/uploads/webp/images/krunker-.io.webp"
+      ],
+      "desc": "Krunker.io is a fast-paced pixelated first-person shooter that runs entirely in the browser.",
+      "feat": "Browser FPS\nFree to Play\nCasual matches"
+    }
+  },
+  {
+    "name": "Paint",
+    "icon": "https://raw.githubusercontent.com/1j01/jspaint/master/images/icons/96x96.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://jspaint.app",
+      "gallery": [
+        "https://raw.githubusercontent.com/1j01/jspaint/master/images/meta/main-screenshot.png"
+      ],
+      "desc": "JS Paint is a faithful web-based remake of classic MS Paint, with a few modern extras.",
+      "feat": "Digital painting\nDrag & drop images\nFully browser-based"
+    }
+  }
+]
